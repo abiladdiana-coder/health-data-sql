@@ -16,7 +16,7 @@ GROUP BY product_code
 ORDER BY total_events DESC
 LIMIT 1;
 
-Answer: Product code BZD appears most often, with 29 events reported in the dataset. 
+Answer: Product code BZD (Ventilator, Non-Continuous Respirator) appears most often, with 29 events reported in the dataset. 
 
 Question 2: What are the top 5 brand names with highest number of adverse events? 
 Query:
