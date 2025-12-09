@@ -38,7 +38,7 @@ LIMIT 5;
 
 Answer: BOSTON SCIENTIFIC CORPORATION (84), ST. JUDE MEDICAL INC.(CRM-SYLMAR) (38), RESPIRONICS, INC (30), MEDTRONIC PUERTO RICO OPERATIONS CO. (22), AIZU OLYMPUS CO., LTD (19).
 
-Question 4: How many different types of problems did the patients report due to device problem? 
+Question 4: How many different types of effects did patients report due to device problems? 
 Query: 
 SELECT COUNT (DISTINCT patient_problem) AS distinct_patient_problem
 FROM maude_2025;
