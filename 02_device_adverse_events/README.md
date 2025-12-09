@@ -1,4 +1,4 @@
-Medical Device Adverse Events ANalysis (SQL)
+Medical Device Adverse Events Analysis (SQL)
 
 This project uses FDA MAUDE open data ( 1 Jan 2023 – 1 Jan 2024, 500 records) to explore device safety.
 
