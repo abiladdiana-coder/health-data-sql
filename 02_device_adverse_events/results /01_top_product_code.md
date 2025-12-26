@@ -1,1 +1,5 @@
-Product code BZD (Ventilator, Non-Continuous Respirator) appears most often, with 29 events reported in the dataset.
+# Product Code Events
+
+| product_code | total_events |
+|--------------|--------------|
+| BZD          | 29           |
