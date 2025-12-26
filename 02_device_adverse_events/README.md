@@ -8,16 +8,6 @@ Queries included
 - Trends over time
 - Outcomes by device type
 
-Question 1: Which product code appears the most? 
-Query:
-SELECT product_code, COUNT (*) AS total_events
-FROM maude_2023
-GROUP BY product_code 
-ORDER BY total_events DESC
-LIMIT 1;
-
-Answer: Product code BZD (Ventilator, Non-Continuous Respirator) appears most often, with 29 events reported in the dataset. 
-
 Question 2: What are the top five medical devices (by brand name) with highest number of adverse events? 
 Query:
 SELECT brand_name, COUNT (*) AS total_adverse events
