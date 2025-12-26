@@ -18,15 +18,6 @@ LIMIT 5;
 
 Answer: DREAMSTATION AUTO CPAP (13), DYMIC (11), OMNIPOD DASH INSULIN MANAGEMENT SYSTEM (10), PERCLOSE PROSTYLE SUTURE-MEDIATED CLOSURE AND REPAIR SYSTEM (9), ENDOWRIST (8).
 
-Question 3: What are the top 5 manufacturers with highest number of adverse events? 
-Query:
-SELECT manufacturer, COUNT (*) AS total_adverse events
-FROM maude_2023
-GROUP BY manufacturer
-ORDER BY total_adverse_events DESC
-LIMIT 5; 
-
-Answer: BOSTON SCIENTIFIC CORPORATION (84), ST. JUDE MEDICAL INC.(CRM-SYLMAR) (38), RESPIRONICS, INC (30), MEDTRONIC PUERTO RICO OPERATIONS CO. (22), AIZU OLYMPUS CO., LTD (19).
 
 Question 4: How many different types of effects did patients report due to device problems? 
 Query: 
